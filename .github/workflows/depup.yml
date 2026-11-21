@@ -37,6 +37,7 @@ jobs:
           branch: depup/markdownlint-cli
           base: master
           labels: "bump:minor"
+          sign-commits: true
 
   reviewdog:
     runs-on: ubuntu-latest
@@ -63,3 +64,4 @@ jobs:
           branch: depup/reviewdog
           base: master
           labels: "bump:minor"
+          sign-commits: true
