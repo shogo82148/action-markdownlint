@@ -50,6 +50,7 @@ jobs:
           ./.github/build.sh
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
           INPUT_TAG: ${{ steps.bumpr.outputs.next_version }}
 
       # Create release.
