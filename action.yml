@@ -40,7 +40,7 @@ inputs:
     default: '.'
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/shogo82148/action-markdownlint:v0.0.1@sha256:3cb7e6927b503c9bcd3b5142cca03d475e9ada0e58dcff2407d20d48b9805f21'
 branding:
   icon: 'zoom-in'
   color: 'purple'
