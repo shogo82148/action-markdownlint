@@ -34,7 +34,7 @@ CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 declare -A REMOTE_COMMIT=()
 
 api() {
-    gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "$@"
+    gh api -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2026-03-10" "$@"
 }
 
 # upload_tree BASE_TREE TREE
